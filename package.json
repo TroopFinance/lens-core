@@ -23,7 +23,8 @@
     "compile": "SKIP_LOAD=true hardhat clean && SKIP_LOAD=true hardhat compile",
     "console:fork": "MAINNET_FORK=true hardhat console",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fix-pragmas": "./node_modules/.bin/ts-node scripts/fixPragmas.ts"
   },
   "repository": {
     "type": "git",

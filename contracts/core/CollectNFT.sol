@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.10;
+pragma solidity ^0.8;
 
 import {ICollectNFT} from '../interfaces/ICollectNFT.sol';
 import {IERC721} from '@openzeppelin/contracts/token/ERC721/IERC721.sol';
